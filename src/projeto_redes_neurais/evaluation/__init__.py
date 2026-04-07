@@ -1,2 +1,0 @@
-"""Avaliacao e visualizacao."""
-

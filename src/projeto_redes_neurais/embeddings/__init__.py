@@ -1,2 +1,0 @@
-"""Geracao de embeddings."""
-
