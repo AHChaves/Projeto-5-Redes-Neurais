@@ -2,7 +2,7 @@
 
 Este repositorio foi reorganizado para trabalhar apenas com notebooks `.ipynb`.
 
-O foco da Etapa 1 continua sendo a base **CelebA-Spoof**, comparando:
+O foco da Etapa 1 agora esta na base **CelebA Align** localizada em `data/raw/img_align_celeba`, comparando:
 
 1. Embeddings com deep learning usando `PyTorch` e `ResNet50`.
 2. Embeddings tradicionais usando `HOG`.
@@ -37,8 +37,8 @@ Depois disso, os notebooks tambem fazem:
 
 ## Base usada
 
-Repositorio oficial da CelebA-Spoof:
+Diretorio local utilizado no projeto:
 
-<https://github.com/ZhangYuanhan-AI/CelebA-Spoof>
+`/home/arthur/Documentos/Github/Projeto-5-Redes-Neurais/data/raw/img_align_celeba`
 
-O notebook de preparacao explica como organizar o download local e validar os manifestos JSON da base.
+Como a pasta atual contem apenas as imagens alinhadas, os notebooks trabalham com embeddings e clustering nao supervisionado.
